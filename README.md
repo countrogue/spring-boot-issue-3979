@@ -1,5 +1,5 @@
-# spring-boot-issue-3979
-This is a sample project that demonstrate the issue Spring-boot #3979
+## spring-boot-issue-3979
+This is a sample project that demonstrate the issue [Spring-boot-Issue-3979](https://github.com/spring-projects/spring-boot/issues/3979)
 
 
 Steps to reproduce the issue
