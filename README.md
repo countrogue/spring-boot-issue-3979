@@ -8,3 +8,6 @@ Steps to reproduce the issue:
 ```
 curl -X POST "Content-Type: application/json"  --header "Accept: application/json"  -d "{\"id\":123, \"name\":\"Car\", \"Chassis\":\"MyChassis\"}" "http://localhost:8080/api/car"
 ```
+
+ChassisDeserializer was initialized using the one in HalHandlerInstantiator,
+instead of spring's BeanFactory which is provided by Jackson2ObjectMapperBuilder using SpringHandlerInstantiator.
